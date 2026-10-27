@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Document workflow illustration">
+  <rect width="640" height="400" fill="#ECFEFF"/>
+  <rect x="70" y="54" width="180" height="246" rx="16" fill="#FFFFFF" stroke="#0F766E" stroke-width="3"/>
+  <rect x="110" y="96" width="98" height="12" rx="6" fill="#0F172A"/>
+  <rect x="110" y="138" width="94" height="10" rx="5" fill="#64748B"/>
+  <rect x="110" y="170" width="112" height="10" rx="5" fill="#64748B"/>
+  <rect x="110" y="202" width="74" height="10" rx="5" fill="#64748B"/>
+  <rect x="110" y="248" width="62" height="18" rx="9" fill="#CCFBF1"/>
+  <path d="M270 178h92" stroke="#0F766E" stroke-width="10" stroke-linecap="round"/>
+  <path d="m344 146 38 32-38 32" fill="none" stroke="#0F766E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="400" y="92" width="168" height="64" rx="14" fill="#CCFBF1"/>
+  <rect x="400" y="190" width="168" height="64" rx="14" fill="#FEF3C7"/>
+  <rect x="400" y="288" width="168" height="64" rx="14" fill="#DCFCE7"/>
+  <text x="424" y="131" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#134E4A">Capture</text>
+  <text x="424" y="229" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#92400E">Review</text>
+  <text x="424" y="327" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#14532D">Approve</text>
+  <text x="70" y="358" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#134E4A">VAF document workflow</text>
+</svg>

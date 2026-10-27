@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Home Guard IoT home security illustration">
+  <rect width="640" height="400" fill="#FFF7ED"/>
+  <path d="M56 128 185 46l129 82" fill="none" stroke="#C2410C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="70" y="120" width="230" height="150" rx="14" fill="#FFFFFF" stroke="#C2410C" stroke-width="3"/>
+  <rect x="128" y="186" width="56" height="84" rx="8" fill="#FFEDD5"/>
+  <circle cx="170" cy="228" r="5" fill="#C2410C"/>
+  <rect x="204" y="158" width="60" height="44" rx="8" fill="#FFEDD5"/>
+  <path d="M250 150l54 20v46c0 34-24 56-54 68-30-12-54-34-54-68v-46Z" fill="#0F766E"/>
+  <path d="m228 214 14 14 30-32" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="410" y="58" width="158" height="270" rx="24" fill="#111827"/>
+  <rect x="424" y="78" width="130" height="230" rx="14" fill="#F8FAFC"/>
+  <text x="444" y="108" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Home</text>
+  <rect x="440" y="124" width="98" height="58" rx="12" fill="#FEE2E2"/>
+  <circle cx="462" cy="153" r="11" fill="#DC2626"/>
+  <text x="482" y="149" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#991B1B">Alert</text>
+  <text x="454" y="174" font-family="Arial, sans-serif" font-size="10" fill="#B91C1C">Motion detected</text>
+  <rect x="440" y="196" width="98" height="36" rx="10" fill="#DCFCE7"/>
+  <text x="454" y="219" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#166534">Front door</text>
+  <rect x="440" y="242" width="98" height="36" rx="10" fill="#E0F2FE"/>
+  <text x="454" y="265" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#075985">Garage</text>
+  <rect x="440" y="288" width="98" height="10" rx="5" fill="#CBD5E1"/>
+  <text x="58" y="360" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#7C2D12">Home Guard IoT</text>
+</svg>

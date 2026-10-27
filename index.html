@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Munashe Emmanuel Chipanga is a software developer in Harare, Zimbabwe building backend, web, and mobile software. Explore personal projects including eHarvest, Parwendo, and ProjektIQ.">
+    <meta name="author" content="Munashe Emmanuel Chipanga">
+    <meta property="og:title" content="Home | Munashe Emmanuel Chipanga">
+    <meta property="og:description" content="Software Developer portfolio for Munashe Emmanuel Chipanga.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#0f766e">
+    <title>Home | Munashe Emmanuel Chipanga</title>
+    <script>
+        (function () {
+            try {
+                var savedTheme = localStorage.getItem("theme");
+                var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+                document.documentElement.dataset.theme = savedTheme || (prefersDark ? "dark" : "light");
+            } catch (error) {
+                document.documentElement.dataset.theme = "light";
+            }
+        })();
+    </script>
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/theme.js" defer></script>
+    <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="MC Munashe Chipanga home">
+            <span class="brand-mark">MC</span>
+            <span class="brand-text">Munashe Chipanga</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="about.html">About</a>
+            <a href="experience.html">Experience</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark and light mode" aria-pressed="false">
+            <span data-theme-icon aria-hidden="true">Theme</span>
+        </button>
+    </header>
+
+    <main id="main">
+        <section class="hero-section">
+            <div class="hero-copy">
+                <p class="eyebrow">Harare, Zimbabwe</p>
+                <h1>Munashe Emmanuel Chipanga</h1>
+                <p class="hero-role">Software Developer</p>
+                <p class="hero-tagline">I build reliable web, backend, and mobile software for teams that need systems to be clear, maintainable, and ready for real users.</p>
+                <div class="button-row">
+                    <a class="btn btn-primary" href="projects.html">View Projects</a>
+                    <a class="btn btn-secondary" href="contact.html">Contact Me</a>
+                    <a class="btn btn-ghost" href="resume.html">View Resume</a>
+                </div>
+            </div>
+            <div class="hero-panel" aria-label="Profile summary">
+                <div class="profile-card">
+                    <img src="assets/img/profile-card.svg" alt="Abstract portfolio card for Munashe Emmanuel Chipanga" width="720" height="480">
+                    <dl>
+                        <div>
+                            <dt>Education</dt>
+                            <dd>BSc (Hons) Computer Science, University of Zimbabwe</dd>
+                        </div>
+                        <div>
+                            <dt>Focus</dt>
+                            <dd>Backend systems, web platforms, mobile applications</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-band" id="featured-projects">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Featured Work</p>
+                    <h2>Personal Projects</h2>
+                </div>
+                <a class="text-link" href="projects.html">All projects</a>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <img class="project-image" width="640" height="400" src="assets/img/projects/eharvest.svg" alt="Illustration of the eHarvest produce marketplace and price forecast dashboard" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h2>eHarvest</h2>
+                            <span class="badge badge-personal">Full-stack + AI</span>
+                        </div>
+                        <p>A farm-to-market platform connecting farmers, buyers, and logistics providers, with produce listings, orders, escrow, payments, delivery tracking, and a separate AI service for price forecasting.</p>
+                        <div class="tag-row">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">FastAPI</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-context">Personal project</span>
+                            <a href="https://github.com/munacips/eharvest" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-image" width="640" height="400" src="assets/img/projects/parwendo.svg" alt="Illustration of a ride-sharing route with a pickup point, car, and destination pin" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h2>Parwendo</h2>
+                            <span class="badge badge-personal">Mobile + API</span>
+                        </div>
+                        <p>A ride-sharing platform where drivers publish trips and passengers book seats, chat, pay, and share live location. Built with Django REST, OAuth 2.0, Flutter, Firebase, and Google Maps.</p>
+                        <div class="tag-row">
+                            <span class="tag">Django REST Framework</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">OAuth 2.0</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-context">Personal project</span>
+                            <a href="https://github.com/munacips/parwendo" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-image" width="640" height="400" src="assets/img/projects/projektiq.svg" alt="Illustration of a ProjektIQ board with requirements, build, and done columns" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h2>ProjektIQ</h2>
+                            <span class="badge badge-personal">Web platform</span>
+                        </div>
+                        <p>A multi-organisation project management platform covering requirements, tasks, issues, change requests, time logs, and real-time chat across the software lifecycle.</p>
+                        <div class="tag-row">
+                            <span class="tag">Django</span>
+                            <span class="tag">Django REST Framework</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">WebSockets</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-context">University project</span>
+                            <a href="https://github.com/munacips/projektiq" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-band compact-band" id="enterprise-work">
+            <div class="split-content">
+                <div>
+                    <p class="eyebrow">Enterprise Work</p>
+                    <h2>TypeScript systems at Imaging Solutions (Sybrin)</h2>
+                </div>
+                <div>
+                    <p>I also delivered TypeScript-based document management and internal systems for Stanbic Bank, BancABC, Old Mutual, and CABS. The work is internal, so it is documented separately from my public projects.</p>
+                    <p class="button-row">
+                        <a class="btn btn-secondary" href="projects.html#enterprise-projects">View enterprise projects</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-band compact-band">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Toolbox</p>
+                    <h2>Core stack</h2>
+                </div>
+                <a class="text-link" href="skills.html">All skills</a>
+            </div>
+            <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">Java</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Django</span>
+                <span class="tag">Django REST Framework</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">Flutter</span>
+                <span class="tag">React</span>
+                <span class="tag">SQL</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Git</span>
+            </div>
+        </section>
+
+        <section class="section-band compact-band">
+            <div class="split-content">
+                <div>
+                    <p class="eyebrow">Experience</p>
+                    <h2>Software Developer at Imaging Solutions (Sybrin)</h2>
+                </div>
+                <div>
+                    <p>Built TypeScript-based enterprise document management and internal systems for banking, financial, and insurance clients including Stanbic Bank, BancABC, and CABS.</p>
+                    <p class="button-row">
+                        <a class="btn btn-secondary" href="experience.html">View experience</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-band compact-band">
+            <div class="split-content">
+                <div>
+                    <p class="eyebrow">Open to work</p>
+                    <h2>Software, web, and mobile roles.</h2>
+                </div>
+                <div>
+                    <p>I am open to software development, web development, and mobile development roles, as well as selected freelance projects.</p>
+                    <p class="button-row">
+                        <a class="btn btn-primary" href="contact.html">Start a conversation</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span data-current-year>2026</span> Munashe Emmanuel Chipanga.</p>
+        <div class="footer-links">
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="resume.html">Resume</a>
+        </div>
+    </footer>
+</body>
+</html>

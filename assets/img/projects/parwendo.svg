@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Parwendo ride-sharing route illustration">
+  <rect width="640" height="400" fill="#EFF6FF"/>
+  <rect x="48" y="48" width="544" height="260" rx="22" fill="#DBEAFE"/>
+  <path d="M48 180h544" stroke="#FFFFFF" stroke-width="18"/>
+  <path d="M250 48v260" stroke="#FFFFFF" stroke-width="14"/>
+  <path d="M430 48v260" stroke="#FFFFFF" stroke-width="12"/>
+  <path d="M110 250C180 250 180 180 250 180S340 110 430 120 470 98 492 98" fill="none" stroke="#2563EB" stroke-width="7" stroke-dasharray="14 12" stroke-linecap="round"/>
+  <circle cx="110" cy="250" r="13" fill="#1D4ED8"/>
+  <circle cx="110" cy="250" r="5" fill="#FFFFFF"/>
+  <path d="M492 74c-13 0-24 11-24 24 0 18 24 38 24 38s24-20 24-38c0-13-11-24-24-24Z" fill="#1D4ED8"/>
+  <circle cx="492" cy="98" r="9" fill="#FFFFFF"/>
+  <g transform="translate(330 152)">
+    <path d="M-18-14-10-26H12L20-14Z" fill="#1D4ED8"/>
+    <rect x="-28" y="-14" width="56" height="26" rx="8" fill="#1D4ED8"/>
+    <rect x="-12" y="-22" width="22" height="8" rx="3" fill="#BFDBFE"/>
+    <circle cx="-16" cy="14" r="6" fill="#0F172A"/>
+    <circle cx="16" cy="14" r="6" fill="#0F172A"/>
+  </g>
+  <text x="72" y="292" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1E3A8A">Pickup</text>
+  <text x="448" y="158" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1E3A8A">Destination</text>
+  <text x="58" y="360" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1E3A8A">Parwendo ride-sharing</text>
+</svg>

@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Projects by Munashe Emmanuel Chipanga, including eHarvest, Parwendo, ProjektIQ, Home Guard, and enterprise systems built at Imaging Solutions.">
+    <meta name="author" content="Munashe Emmanuel Chipanga">
+    <meta property="og:title" content="Projects | Munashe Emmanuel Chipanga">
+    <meta property="og:description" content="Personal projects and enterprise systems by Munashe Emmanuel Chipanga.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#0f766e">
+    <title>Projects | Munashe Emmanuel Chipanga</title>
+    <script>
+        (function () {
+            try {
+                var savedTheme = localStorage.getItem("theme");
+                var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+                document.documentElement.dataset.theme = savedTheme || (prefersDark ? "dark" : "light");
+            } catch (error) {
+                document.documentElement.dataset.theme = "light";
+            }
+        })();
+    </script>
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/theme.js" defer></script>
+    <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="MC Munashe Chipanga home">
+            <span class="brand-mark">MC</span>
+            <span class="brand-text">Munashe Chipanga</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="about.html">About</a>
+            <a href="experience.html">Experience</a>
+            <a href="projects.html" aria-current="page">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark and light mode" aria-pressed="false">
+            <span data-theme-icon aria-hidden="true">Theme</span>
+        </button>
+    </header>
+
+    <main id="main">
+        <section class="page-hero">
+            <p class="eyebrow">Projects</p>
+            <h1>Products I have built, and enterprise systems I have delivered.</h1>
+            <p>My own projects span agricultural marketplaces, ride-sharing, project management, and IoT. Each one links to its public GitHub repository. Enterprise systems delivered at Imaging Solutions (Sybrin) are documented in a separate section below.</p>
+            <div class="button-row">
+                <a class="btn btn-primary" href="https://github.com/munacips" target="_blank" rel="noopener">GitHub profile</a>
+                <a class="btn btn-secondary" href="#enterprise-projects">Enterprise work</a>
+            </div>
+        </section>
+
+        <section class="section-band compact-band" id="personal-projects">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Personal Projects</p>
+                    <h2>Selected builds</h2>
+                </div>
+                <a class="text-link" href="https://github.com/munacips?tab=repositories" target="_blank" rel="noopener">All repositories on GitHub</a>
+            </div>
+
+            <div class="project-grid page-grid">
+                <article class="project-card">
+                    <img class="project-image" width="640" height="400" src="assets/img/projects/eharvest.svg" alt="Illustration of the eHarvest produce marketplace and price forecast dashboard" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h2>eHarvest</h2>
+                            <span class="badge badge-personal">Full-stack + AI</span>
+                        </div>
+                        <p>A farm-to-market platform connecting farmers, buyers, and logistics providers. The Spring Boot API covers produce listings, orders, escrow, Paynow payments, subscriptions, messaging, live delivery tracking, and PDF reports, with a Flutter client and a separate FastAPI service for price forecasting.</p>
+                        <div class="tag-row">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-context">Personal project · Agriculture</span>
+                            <span class="project-link-group">
+                                <a href="https://github.com/munacips/eharvest" target="_blank" rel="noopener">Backend</a>
+                                <a href="https://github.com/munacips/eharvest_ai" target="_blank" rel="noopener">AI service</a>
+                                <a href="https://github.com/munacips/eharvest_mobile" target="_blank" rel="noopener">Mobile</a>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-image" width="640" height="400" src="assets/img/projects/parwendo.svg" alt="Illustration of a ride-sharing route with a pickup point, car, and destination pin" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h2>Parwendo</h2>
+                            <span class="badge badge-personal">Mobile + API</span>
+                        </div>
+                        <p>A ride-sharing platform where drivers publish trips and passengers search, book, and pay for seats. It includes OAuth 2.0 authentication, driver and vehicle verification, in-app chat, reviews, SOS alerts, Paynow and card payments, push notifications, and live location tracking over WebSockets.</p>
+                        <div class="tag-row">
+                            <span class="tag">Django REST Framework</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">OAuth 2.0</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Google Maps</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-context">Personal project · Transport</span>
+                            <span class="project-link-group">
+                                <a href="https://github.com/munacips/parwendo" target="_blank" rel="noopener">Backend</a>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-image" width="640" height="400" src="assets/img/projects/projektiq.svg" alt="Illustration of a ProjektIQ board with requirements, build, and done columns" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h2>ProjektIQ</h2>
+                            <span class="badge badge-personal">Web platform</span>
+                        </div>
+                        <p>A multi-organisation project management platform covering requirements, tasks, issues, change requests, time logs, and stage-based project health. It includes role-based membership, threaded comments, and real-time chat over Django Channels.</p>
+                        <div class="tag-row">
+                            <span class="tag">Django</span>
+                            <span class="tag">Django REST Framework</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">WebSockets</span>
+                            <span class="tag">OAuth 2.0</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-context">University software engineering project</span>
+                            <span class="project-link-group">
+                                <a href="https://github.com/munacips/projektiq" target="_blank" rel="noopener">API</a>
+                                <a href="https://github.com/munacips/projektiq-frontend-latest" target="_blank" rel="noopener">Frontend</a>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-image" width="640" height="400" src="assets/img/projects/homeguard.svg" alt="Illustration of a smart home with a security shield and a phone showing an alert" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h2>Home Guard</h2>
+                            <span class="badge badge-personal">IoT</span>
+                        </div>
+                        <p>An IoT home security system with a Flutter app for monitoring home devices, receiving status updates, and raising security alerts. I built the complete mobile frontend and contributed to the sensor and circuit wiring on the hardware side.</p>
+                        <div class="tag-row">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Dart</span>
+                            <span class="tag">IoT</span>
+                            <span class="tag">Mobile UI</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-context">Personal project · IoT</span>
+                            <span class="project-link-group">
+                                <a href="https://github.com/munacips/HomeGuard" target="_blank" rel="noopener">GitHub</a>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-band" id="enterprise-projects">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Enterprise Work</p>
+                    <h2>Imaging Solutions (Sybrin)</h2>
+                </div>
+                <a class="text-link" href="experience.html">Role context</a>
+            </div>
+            <p class="section-intro">Between August 2024 and July 2025 I delivered TypeScript-based enterprise systems for banking, financial services, and insurance clients. The work is internal, so there are no public repositories, but the systems are described below.</p>
+
+            <div class="project-grid page-grid">
+                <article class="project-card">
+                    <img class="project-image" width="640" height="400" src="assets/img/projects/document-workflow.svg" alt="Illustration of a document moving through capture, review, and approval stages" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h2>Stanbic VAF Document Management</h2>
+                            <span class="badge badge-enterprise">Enterprise</span>
+                        </div>
+                        <p>A document management system for Stanbic Bank's Vehicle and Asset Finance division. The system gives teams a controlled place to capture, review, and approve financing documents instead of tracking them across disconnected folders and email threads.</p>
+                        <div class="tag-row">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-context">Imaging Solutions (Sybrin) · 2024–2025</span>
+                            <a href="experience.html">Role context</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-image" width="640" height="400" src="assets/img/projects/employee-management.svg" alt="Illustration of an employee management dashboard" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h2>BancABC Employee Management System</h2>
+                            <span class="badge badge-enterprise">Enterprise</span>
+                        </div>
+                        <p>An internal employee management system for BancABC, bringing staff records and day-to-day administrative workflows into one maintainable application. The focus was on clear data ownership, predictable processes, and an interface that operations teams could use without friction.</p>
+                        <div class="tag-row">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-context">Imaging Solutions (Sybrin) · 2024–2025</span>
+                            <a href="experience.html">Role context</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-image" width="640" height="400" src="assets/img/projects/contract-management.svg" alt="Illustration of a contract moving from draft to review to signature" loading="lazy" decoding="async">
+                    <div class="project-body">
+                        <div class="project-title-row">
+                            <h2>Old Mutual Contract Management</h2>
+                            <span class="badge badge-enterprise">Enterprise</span>
+                        </div>
+                        <p>A contract management system for Old Mutual, built to keep contract records structured, searchable, and easier for teams to manage through their lifecycle. The work centred on document organization, status tracking, and reducing the manual effort around contract administration.</p>
+                        <div class="tag-row">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">REST APIs</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-context">Imaging Solutions (Sybrin) · 2024–2025</span>
+                            <a href="experience.html">Role context</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-band compact-band">
+            <div class="split-content">
+                <div>
+                    <p class="eyebrow">More code</p>
+                    <h2>Experiments, coursework, and smaller builds.</h2>
+                </div>
+                <div>
+                    <p>My GitHub also holds earlier coursework and smaller experiments alongside the projects above. The repositories featured here are the best starting points.</p>
+                    <p class="button-row">
+                        <a class="btn btn-secondary" href="https://github.com/munacips?tab=repositories" target="_blank" rel="noopener">Browse GitHub</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-band compact-band">
+            <div class="split-content">
+                <div>
+                    <p class="eyebrow">Code walkthrough</p>
+                    <h2>Want to see how it was built?</h2>
+                </div>
+                <div>
+                    <p>I can walk through data models, workflow design, API boundaries, and the trade-offs behind both the personal builds and the enterprise systems in an interview or technical conversation.</p>
+                    <p class="button-row">
+                        <a class="btn btn-primary" href="contact.html">Get in touch</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span data-current-year>2026</span> Munashe Emmanuel Chipanga. Built as a static site.</p>
+        <div class="footer-links">
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="resume.html">Resume</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Employee management dashboard illustration">
+  <rect width="640" height="400" fill="#F8FAFC"/>
+  <rect x="54" y="56" width="532" height="288" rx="20" fill="#111827"/>
+  <rect x="84" y="92" width="150" height="216" rx="14" fill="#1F2937"/>
+  <rect x="104" y="116" width="86" height="10" rx="5" fill="#94A3B8"/>
+  <rect x="104" y="148" width="108" height="8" rx="4" fill="#475569"/>
+  <rect x="104" y="176" width="96" height="8" rx="4" fill="#475569"/>
+  <rect x="104" y="204" width="112" height="8" rx="4" fill="#475569"/>
+  <rect x="104" y="232" width="82" height="8" rx="4" fill="#475569"/>
+  <rect x="260" y="92" width="286" height="42" rx="12" fill="#F8FAFC"/>
+  <rect x="260" y="164" width="132" height="96" rx="14" fill="#14B8A6"/>
+  <rect x="414" y="164" width="132" height="96" rx="14" fill="#F59E0B"/>
+  <rect x="260" y="286" width="286" height="22" rx="11" fill="#CBD5E1"/>
+  <circle cx="300" cy="204" r="18" fill="#0F766E"/>
+  <path d="M276 238c4-13 20-19 33-12 6 3 10 7 13 12h-46Z" fill="#0F766E"/>
+  <circle cx="454" cy="204" r="18" fill="#92400E"/>
+  <path d="M430 238c4-13 20-19 33-12 6 3 10 7 13 12h-46Z" fill="#92400E"/>
+  <text x="84" y="358" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">Employee management</text>
+</svg>
